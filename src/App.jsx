@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import PollComponent from "./components/PollComponent";
 
 const QUESTIONS_WITH_OPTIONS = [
@@ -26,9 +26,9 @@ const QUESTIONS_WITH_OPTIONS = [
 
 function App() {
   return (
-    <>
+    <div className="bg-primary h-screen">
       <PollComponent questions={QUESTIONS_WITH_OPTIONS} />
-    </>
+    </div>
   );
 }
 
